@@ -116,7 +116,7 @@ print  """\033[1;91m
                      ▇▇◣◥▅▅▅◤◢▇▇
                      ▇▇▇◣╲▇╱◢▇▇▇
                      ▇▇▇▇◣▇◢▇▇▇▇
-                   WhatsApp : 03124788959
+                   WhatsApp : Coming soon
 \033[1;96mAuthor  \033[1;93m: \033[1;92mDevil_boy_302
 \033[1;96mInstagram \033[1;93m: \033[1;92mahtisham_mughal.302
 \033[1;96mFacebook  \033[1;93m: \033[1;92m Devil.boy.302.officiel
